@@ -1,0 +1,103 @@
+// Reset CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+}
+
+article {
+  background-color: black;
+  height: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav {
+  font-family: "Red Hat Display", sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 0.75em;
+  height: 44px;
+}
+
+ul,
+li {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 6px;
+  margin: 0;
+  opacity: 1;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  opacity: 0.3;
+}
+
+header {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+#covid-info {
+  background-color: #0071e3;
+  color: white;
+}
+
+p {
+  margin-top: 0;
+  padding: 10px 25px 25px;
+  margin-bottom: 0;
+}
+
+#shop {
+  background-color: white;
+}
+
+.content span {
+  color: #f22929;
+  font-size: .9em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.future {
+  font-size: 1.25em;
+  color: #fff;
+  padding-bottom: 0;
+}
+
+.learn {
+  color: rgb(2, 118, 226);
+  font-size: .95em;
+}
+
+span {
+  font-size: 1.25em;
+  color: rgb(2, 118, 226);
+}
+
+span:hover {
+  color: red;
+}
